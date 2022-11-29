@@ -1,0 +1,9 @@
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+            background-color: var(--btn-hover-color);
+}
+}

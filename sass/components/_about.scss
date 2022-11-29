@@ -1,0 +1,38 @@
+.about {
+    padding-bottom: 94px;
+}
+.about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    margin-bottom: 50px;
+}
+.about__list {
+    display: flex;
+    gap: 30px;
+}
+.about__image {
+    position: relative;
+    flex-basis: calc((100% - 30px * 2) / 3);
+}
+.about-overlay__box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}
+.about-overlay__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    padding: 27px;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: var(--primary-font);
+    color: var(--prevailing-color);
+    background-color: var(--main-background-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+// global styles for buttons
