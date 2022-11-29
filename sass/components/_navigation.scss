@@ -1,5 +1,9 @@
 .nav {
-    margin-left: 93px;
+    margin-left: 92px;
+
+    @media screen and (max-width: 767.98px) {
+        display: none;
+    }
 }
 .nav__list {
     display: flex;
