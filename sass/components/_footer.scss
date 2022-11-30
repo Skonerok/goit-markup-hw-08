@@ -4,7 +4,11 @@
 }
 .footer__container {
     display: flex;
-    align-items: baseline;
+    // align-items: baseline;
+
+    flex-direction: column;
+    align-items: center;
+
 }
 /* first part */
 .address {
@@ -31,7 +35,7 @@
 }
 /* second part */
 .social-contacts {
-    margin-left: 70px;
+    // margin-left: 70px;
 }
 .social-contacts__title {
     font-weight: 700;
