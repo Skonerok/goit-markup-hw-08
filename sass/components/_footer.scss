@@ -12,6 +12,25 @@
     }
 
 }
+.footer__wrapper {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 60px;
+    }
+}
+.footer__address--wrapped {
+@media screen and (min-width: 768px) {
+        margin-right: 165px;
+    }
+
+    @media screen and (max-width: 1199px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+}
 /* first part */
 .address {
     margin-top: 20px;
