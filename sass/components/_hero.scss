@@ -7,19 +7,27 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/hero-image.jpg);
-    width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 481px) and (max-width: 767.98px) {
+        max-width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+    }
 }
 .hero__title {
     font-weight: 900;
     font-size: 26px;
+    // font-size: 5vw;
     line-height: calc(42 / 26);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-color);
-    width: 360px;
+    // width: 360px;
     // max-width: 360px;
     margin-bottom: 30px;
     margin-left: auto;

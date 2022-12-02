@@ -58,7 +58,10 @@
     line-height: calc(47 / 40);
     letter-spacing: 0.02em;
     padding: 0;
-    margin-bottom: auto;
+
+    @media screen and (min-width: 480px) {
+        font-size: 40px;
+    }
 }
 .mobile-menu .link {
     display: block;
@@ -68,16 +71,30 @@
 }
 .mobile-contacts {
     font-weight: 500;
-    font-size: 8vw;
     letter-spacing: 0.02em;
+    margin-top: auto;
+}
+.mobile-contacts__item {
+    margin-bottom: 32px;
 }
 .mobile-contacts__tel {
     line-height: calc(40 / 34);
     color: var(--accent-color);
+    font-size: 7vw;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: 480px) {
+            font-size: 34px;
+        }
 }
 .mobile-contacts__mail {
     line-height: calc(28 / 24);
     color: var(--prevailing-color);
+    font-size: 5vw;
+
+    @media screen and (min-width: 480px) {
+            font-size: 24px;
+        }
 }
 .mobile-socials {
 display: flex;
