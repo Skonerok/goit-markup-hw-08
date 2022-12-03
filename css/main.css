@@ -142,8 +142,6 @@ img {
             flex-direction: column;
     gap: 10px;
     margin-left: 97px;
-    padding-top: 21px;
-    padding-bottom: 21px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -194,6 +192,12 @@ img {
   line-height: 1.1923076923;
   letter-spacing: 0.03em;
   text-decoration: none;
+  padding: 16px 0;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    padding: 26px 0;
+  }
 }
 
 .logo__first--blue {
@@ -209,7 +213,7 @@ img {
 }
 
 .nav {
-  margin-left: 92px;
+  margin-left: 87px;
 }
 @media screen and (max-width: 767.98px) {
   .nav {
