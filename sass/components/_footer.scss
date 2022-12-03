@@ -13,16 +13,16 @@
 
 }
 .footer__wrapper {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     align-items: baseline;
     justify-content: center;
     margin-bottom: 60px;
     }
 
-    // @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
 
-    // }
+    }
 }
 .footer__address--wrapped {
 @media screen and (min-width: 768px) {

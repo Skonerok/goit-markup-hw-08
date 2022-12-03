@@ -652,7 +652,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -666,7 +666,6 @@ img {
     margin-bottom: 60px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .footer__address--wrapped {
     margin-right: 165px;
