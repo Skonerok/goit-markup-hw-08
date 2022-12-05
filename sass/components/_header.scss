@@ -6,6 +6,9 @@
     align-items: center;
 }
 .header__contacts {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     @media screen and (max-width: 767px) {
     display: none;
     }
@@ -15,6 +18,8 @@
         flex-direction: column;
         gap: 10px;
         margin-left: 97px;
+        padding-top: 21px;
+        padding-bottom: 21px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -24,9 +29,11 @@
     }
 }
 .header__list {
+    @media screen and (min-width: 1200px) {
     &:not(:last-child) {
     margin-right: 50px;
 }
+    }
 }
 .header__link {
     display: flex;
