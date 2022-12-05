@@ -5,13 +5,13 @@
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     text-decoration: none;
-
-    @media screen and (max-width: 767px) {
-    padding: 16px 0;
-    }
 }
 .header-logo {
     color:#000000;
+
+    @media screen and (max-width: 767px) {
+            padding: 16px 0;
+        }
 
     @media screen and (min-width: 768px) {
         padding: 26px 0;
