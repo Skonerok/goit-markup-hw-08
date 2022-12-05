@@ -8,6 +8,7 @@
 }
 .header-logo {
     color:#000000;
+    margin-right: 94px;
 
     @media screen and (max-width: 767px) {
             padding: 16px 0;
@@ -18,7 +19,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        margin-left: auto
+        // margin-left: 215px;
     }
 }
 .header-logo--color {
