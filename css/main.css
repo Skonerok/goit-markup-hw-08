@@ -99,10 +99,6 @@ img {
   }
 }
 
-.section {
-  padding: 94px 0;
-}
-
 .btn {
   font-family: inherit;
   cursor: pointer;
@@ -844,6 +840,11 @@ img {
 }
 
 /* third part */
+@media screen and (max-width: 767px) {
+  .subscribe {
+    margin-top: 60px;
+  }
+}
 @media screen and (min-width: 768px) {
   .subscribe {
     margin-left: auto;
