@@ -698,9 +698,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -896,9 +893,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -922,7 +919,6 @@ img {
 @media screen and (min-width: 1200px) {
   .subscribe__input {
     width: 358px;
-    height: 50px;
   }
 }
 .subscribe__input:hover, .subscribe__input:focus-within {
