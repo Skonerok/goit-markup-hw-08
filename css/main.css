@@ -365,6 +365,11 @@ img {
     padding: 60px 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding: 94px 0;
+  }
+}
 
 .benefits__list {
   display: -webkit-box;
@@ -501,6 +506,11 @@ img {
     padding: 60px 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team {
+    padding: 94px 0;
+  }
+}
 
 .team__title {
   font-weight: 700;
@@ -616,6 +626,11 @@ img {
 @media screen and (max-width: 1199px) {
   .clients {
     padding: 60px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding: 94px 0;
   }
 }
 
