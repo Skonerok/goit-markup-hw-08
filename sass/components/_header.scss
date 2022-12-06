@@ -8,6 +8,7 @@
 .header__contacts {
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-left: auto;
 
     @media screen and (max-width: 767px) {
     display: none;
@@ -17,15 +18,12 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin-left: 97px;
         padding-top: 21px;
         padding-bottom: 21px;
     }
 
     @media screen and (min-width: 1200px) {
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 .header__list {
@@ -39,39 +37,39 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.02em;
     color: var(--prevailing-color);
     list-style-type: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        font-size: 12px;
-        line-height: calc(14 / 12);
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: calc(16 / 14);
     }
 }
 .header__icon-mail {
-    margin-right: 10px;
+    margin-right: 8px;
     fill: currentColor;
-    width: 16px;
-    height: 12px;
+    width: 14px;
+    height: 10px;
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        margin-right: 8px;
-        width: 14px;
-        height: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-right: 10px;
+        width: 16px;
+        height: 12px;
     }
 }
 .header__icon-tel {
-    margin-right: 10px;
+    margin-right: 8px;
     fill: currentColor;
     width: 10px;
-    height: 16px;
+    height: 14px;
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-            margin-right: 8px;
+    @media screen and (min-width: 1200px) {
+            margin-right: 10px;
             width: 10px;
-            height: 14px;
+            height: 16px;
         }
 }
