@@ -164,6 +164,10 @@ align-items: center;
     transition: background-color 250ms var(--animation-function),
         box-shadow 250ms var(--animation-function);
 
+        @media screen and (min-width: 768px) {
+                width: 450px;
+            }
+
         @media screen and (min-width: 1200px) {
         width: 358px;
         }

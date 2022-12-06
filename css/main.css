@@ -935,6 +935,11 @@ img {
   transition: background-color 250ms var(--animation-function), box-shadow 250ms var(--animation-function);
   transition: background-color 250ms var(--animation-function), box-shadow 250ms var(--animation-function), -webkit-box-shadow 250ms var(--animation-function);
 }
+@media screen and (min-width: 768px) {
+  .subscribe__input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscribe__input {
     width: 358px;
