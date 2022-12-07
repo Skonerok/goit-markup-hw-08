@@ -41,14 +41,14 @@
 }
 .benefits__subtitle {
     font-weight: 700;
-        font-size: 14px;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--header-color);
-        margin-bottom: 10px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+    margin-bottom: 10px;
     
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 767px) {
             text-align: center;
         }
     }
